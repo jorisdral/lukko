@@ -4,7 +4,7 @@
 {-# LANGUAGE InterruptibleFFI #-}
 {-# LANGUAGE Trustworthy #-}
 -- | Linux open file descriptor locking.
--- 
+--
 -- <https://www.gnu.org/software/libc/manual/html_node/Open-File-Description-Locks.html>
 --
 -- We prefer this over BSD locking (e.g. flock) since the latter appears to
@@ -21,7 +21,7 @@ module Lukko.OFD (
     fileLockingMethod,
     LockMode(..),
     -- * File descriptors
-    FD,
+    FD (..),
     fdOpen,
     fdClose,
     fdLock,

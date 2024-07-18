@@ -9,7 +9,7 @@ module Lukko (
     Impl.fileLockingMethod,
     LockMode(..),
     -- * File descriptors
-    FD,
+    FD (..),
     fdOpen,
     fdClose,
     fdLock,

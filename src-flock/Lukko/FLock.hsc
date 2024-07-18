@@ -12,7 +12,7 @@ module Lukko.FLock (
     fileLockingMethod,
     LockMode(..),
     -- * File descriptors
-    FD,
+    FD (..),
     fdOpen,
     fdClose,
     fdLock,
